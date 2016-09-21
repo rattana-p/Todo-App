@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> JavaScript Lab 2 </title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+      input:focus {background-color: darkblue; color: aliceblue;}
+      .liclass {height: 40px; padding: 7px 2px;}
+      ul {background-color: skyblue; min-height: 35px; margin-top: 10px; padding-top: 2px;}
+      .buttonstyle {float: right; border: 2px solid white; }     
+    </style>    
+  </head>
+  
+  <body>
+  <div class="col-md-12 col-sm-12 col-xs-12">
+   <h1 class="text-center"> To-do List  </h1>
+  </div>
+ 
+   <div class="col-md-12 col-sm-12 col-xs-12">  
+     <div class="col-md-3 col-sm-3 col-xs-12"></div>
+     <input type="text" class="col-md-4 col-sm-3 col-xs-12 input-sm text-center" id="taskinput" > 
+     <button id="addnewtask" class="col-md-2 col-sm-3 col-xs-12 btn btn-default btn-sm text-center" onclick="task()"> Add your new task </button> <br>
+      <div class="col-md-3 col-sm-3 col-xs-12"></div>
+    </div>
+    
+
+ <div class="col-md-6 col-sm-6 col-xs-12"> 
+     <ul class="list-group text-center" id="mytodo"> <h5> All tasks </h5> </ul>
+    </div>
+
+<div class="col-md-6 col-sm-6 col-xs-12">
+     <ul class="list-group text-center" id="done"><h5> Done tasks </h5></ul>
+   </div>
+ 
+  <script src="todo.js"> </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
